@@ -59,3 +59,64 @@ repo5-task-fmri-glm-cognitive-activation/
 │   └── cat_vs_bottle.png
 │
 └── README.md
+
+---
+
+## Notebooks
+
+### 01_dataset_audit.ipynb
+Fetches the dataset, inspects files, and verifies task labels.
+
+### 02_first_level_glm.ipynb
+Builds events, fits a first-level GLM, creates design matrix and Face > House contrast.
+
+### 03_advanced_contrast_analysis.ipynb
+Runs multiple contrasts across stimulus categories and saves activation maps.
+
+### 04_reporting_and_interpretation.ipynb
+Summarizes methods, outputs, and scientific interpretation.
+
+---
+
+## Methods
+
+Implemented with:
+
+- Python
+- Nilearn
+- Pandas
+- Matplotlib
+- Nibabel
+
+GLM settings:
+
+- SPM hemodynamic response function
+- cosine drift regressors
+- high-pass filtering
+- spatial smoothing
+- voxelwise linear modelling
+
+---
+
+## Why This Repository Matters
+
+This project demonstrates competency in:
+
+- task-fMRI workflows
+- event-based modelling
+- neuroimaging statistics
+- contrast specification
+- scientific visualization
+- reproducible computational pipelines
+
+---
+
+## Future Directions
+
+Potential extensions include:
+
+- ROI-based summaries
+- MVPA / decoding analysis
+- representational similarity analysis
+- larger multi-subject inference
+- permutation-based statistics
