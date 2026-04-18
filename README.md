@@ -58,7 +58,7 @@ A canonical public task-fMRI dataset widely used in neuroimaging education and r
 │   └── cat_vs_bottle.png
 │
 └── README.md
-
+```
 ---
 
 ## Notebooks
